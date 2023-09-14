@@ -1,6 +1,24 @@
 {
-  "name": "Whatts",
+  "name": "whatts",
   "version": "1.0.0",
+  "description": "Repository with the whattsapp chat bot for IT Uffs",
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoChafado/WhattsappTI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoChafado/WhattsappTI/issues"
+  },
+  "homepage": "https://github.com/ThiagoChafado/WhattsappTI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "twilio": "^4.17.0"
+  }
 }
